@@ -4,7 +4,8 @@
 # https://aka.ms/yaml
 
 trigger:
-- nagarac-patch-1
+- main
+- nagarac-patch-1/*
 
 pool:
   vmImage: ubuntu-latest
